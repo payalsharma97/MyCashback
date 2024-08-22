@@ -1,0 +1,159 @@
+/*------------header-css-------------*/
+
+.header{
+    background: var(--primary);
+    padding: 2.2rem 0;
+}
+.navbar-toggler{
+    width: 3.8rem;
+    height: 3.8rem;
+    background: linear-gradient(180deg, #003C2A 0%, rgba(0, 60, 42, 0) 100%);
+    box-shadow: inset 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9rem;
+    padding: 0.4rem 1rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler .navbar-toggle-icon{
+    position: relative;
+    display: block;
+    background-color: var(--white300);
+    width: 1.7rem;
+    height: 0.15rem;
+    min-height: 0.15rem;
+    margin-bottom: 0.4rem;
+}
+.navbar-toggler .navbar-toggle-icon:last-child{
+    width: 0.85rem;
+    margin: 0;
+}
+.navbar-brand img{
+    width: auto;
+    max-height: 4.4rem;
+}
+
+.navbar .navbar-collapse{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--primary);
+    padding: 4rem 2rem;
+    width: 28rem;
+    height: 100vh;
+    overflow-y: auto;
+    transform: translate(-100%);
+    transition: all 0.1s;
+}
+.navbar .navbar-collapse.show{
+    transform: translate(0);
+}
+.navbar .navbar-collapse a{
+    font-family: var(--font-Arial);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--white);
+}
+.navbar .navbar-collapse a:hover{
+    color: var(--yellow);
+}
+.header .dropdown,
+.notification-dropdown,
+.trophy-dropdown,
+.level-value{
+    background: linear-gradient(180deg, #003C2A 0%, rgba(0, 60, 42, 0) 100%);
+    box-shadow: inset 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9rem;
+    padding: 0.7rem 2.5rem 0.7rem 1rem;
+    cursor: pointer;
+}
+.dropdown-toggle,
+.dropdown-item{
+    font-family: var(--font-SF-UI-TEXT);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--white);
+}
+.dropdown-toggle::after{
+    content: "";
+    position: absolute;
+    height: .8rem;
+    width: .8rem;
+    border-style: solid;
+    border-color: var(--yellow);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    right: 0.8rem;
+    top: 1.3rem; 
+}
+.dropdown-menu{
+    background: var(--primary);
+    border: none;
+}
+.notification-dropdown{
+    padding: 0.7rem 1rem;
+}
+.trophy-dropdown{
+    padding: 0.7rem 1rem;
+}
+.dropdown.amount-dropdown{
+    padding: 0.4rem 1rem;
+}
+.amount-dropdown .wallet-amount{
+    background: linear-gradient(131.04deg, #FFEC4A 8.69%, #FFC400 76.92%);
+    box-shadow: 0px 2px 16px rgba(255, 196, 0, 0.4);
+    border-radius: 8px;
+    width: 3rem;
+    height: 3rem;
+    margin-left:2.5rem;
+}
+.dropdown.amount-dropdown .dropdown-toggle::after{
+    right: 5rem;
+}
+.level-value{
+    padding: 0.7rem 1rem;
+}
+.level-value span{
+    font-family: var(--font-Arial);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--white);
+}
+.site{
+    transition: all 0.15s;
+    width: 100%; 
+}
+.body-toggled .site{
+    width: calc(100% - 28rem); 
+    margin-left: auto;
+}
+
+.body-toggled span.navbar-toggle-icon:first-child {
+    transform: rotate(45deg);
+    top: 0.6rem;
+}
+.body-toggled span.navbar-toggle-icon:nth-of-type(2) {
+    opacity: 0;
+}
+.body-toggled span.navbar-toggle-icon:last-child {
+    width: 100%;
+    transform: rotate(-45deg);
+    top: -0.5rem;
+}
+
+@media (max-width: 1366px){
+    .level-value span{
+        font-size: 1.4rem;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 767px){
+    .navbar .navbar-collapse{
+        width: 18rem;
+    }
+    .body-toggled .site {
+        width: calc(100% - 18rem);
+    }
+}

@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chicmic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="site" id="site">
+<header class="header" id="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <nav class="col col-sm-4 navbar p-0">
+                <button class="navbar-toggler d-flex flex-column justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggle-icon"></span>
+                    <span class="navbar-toggle-icon"></span>
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            <div class="logo col col-sm-3 text-center">
+                <a class="navbar-brand text-white" href="javascript:void(0)">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <div class="col col-sm-5 wallet-content d-flex align-items-center justify-content-end gap-2">
+                <div class="dropdown country-dropdown sm-hidden lg-hidden">
+                    <span class="dropdown-toggle" data-bs-toggle="dropdown">
+                      <img src="images/flag.svg" alt="">
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt=""></a></li>
+                      <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt=""></a></li>
+                      <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="notification-dropdown sm-hidden lg-hidden">
+                    <img src="images/bell.svg" alt="">
+                </div>
+                <div class="trophy-dropdown sm-hidden lg-hidden">
+                    <img src="images/trophy.svg" alt="">
+                </div>
+                <div class="dropdown amount-dropdown">
+                    <span class="dropdown-toggle d-flex align-items-center gap-2" data-bs-toggle="dropdown">
+                        100 <span>€</span> <span class="wallet-amount d-flex align-items-center justify-content-center"><img src="images/wallet.svg" alt=""></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-item">200 €</li>
+                      <li class="dropdown-item">300 €</li>
+                      <li class="dropdown-item">400 €</li>
+                    </ul>
+                </div>
+                <div class="level-value sm-hidden">
+                    <span>LVL 1</span>
+                </div>
+                <div class="dropdown account-dropdown sm-hidden">
+                    <span class="dropdown-toggle" data-bs-toggle="dropdown">
+                        Martin Shein
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="javascript:void(0)">My Account</a></li>
+                      <li><a class="dropdown-item" href="javascript:void(0)">Help</a></li>
+                      <li><a class="dropdown-item" href="javascript:void(0)">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="site-content" id="site-content">
+    <section class="hero-section d-flex align-items-center" id="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-5 col-lg-offset-7">
+                    <h1 class="text-white mb-4">Lorem ipsum</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur. Pretium nulla sed in elit quam id molestie urna eleifend. Posuere euismod bibendum id erat pretium vestibulum et. Consequat tellus donec sed aliquet tristique diam ornare. Pretium nulla tristique sed dolor. Urna quisque nec in tincidunt nulla.</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/main-image.png" class="hero-image">
+    </section>
+
+
+    <!-- contest  -->
+    <section class="contest-block space">
+        <div class="container">
+            <div class="intro-block mx-auto text-white text-center">
+                <h2 class="underlined"><span>Contest</span></h2>
+                <div class="bar"></div>
+                <p>
+                    Listed below are the most frequently asked questions by members and we hope you find the answer you are looking for. However, if you can't find an answer, you can always contact chat customer support by clicking on the round icon at the bottom right, and we'll be happy to help!
+                </p>
+            </div>
+
+            <div class="inner-wrapper">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-6 col-sm-6 col-md-9 col-lg-9">
+                        <h2 class="text-yellow m-0">Leaderboard</h2>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                        <div class="score-board d-flex align-items-center">
+                            <img src="images/score-32.png" alt="">
+                            <span>Your current position</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-wrapper mt-5 mb-hidden">
+                    <div class="row table-row">
+                        <div class="col-sm-4 stroke">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="images/score-01.png" />
+                                <div class="user-card">
+                                    <span class="label">User</span>
+                                    <span class="value">User Name</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Count</span>
+                                <span class="value">11</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Amount</span>
+                                <span class="value">2500 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Prize</span>
+                                <span class="value">500 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <div class="casino-img">
+                                <img src="images/buusti-kasino.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="row align-items-center table-row">
+                        <div class="col-sm-4 stroke">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="images/score-02-1.png" />
+                                <div class="user-card">
+                                    <span class="label">User</span>
+                                    <span class="value">User Name</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Count</span>
+                                <span class="value">9</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Amount</span>
+                                <span class="value">1750 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Prize</span>
+                                <span class="value">250 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <div class="casino-img">
+                                <img src="images/buusti-kasino.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="row align-items-center table-row">
+                        <div class="col-sm-4 stroke">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="images/score-03.png" />
+                                <div class="user-card">
+                                    <span class="label">User</span>
+                                    <span class="value">User Name</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Count</span>
+                                <span class="value">7</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Amount</span>
+                                <span class="value">975 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Prize</span>
+                                <span class="value">125 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <div class="casino-img">
+                                <img src="images/buusti-kasino.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="row align-items-center table-row">
+                        <div class="col-sm-4 stroke">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="images/score-04.png" />
+                                <div class="user-card">
+                                    <span class="label">User</span>
+                                    <span class="value">User Name</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Count</span>
+                                <span class="value">4</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Amount</span>
+                                <span class="value">700 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Prize</span>
+                                <span class="value">75 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <div class="casino-img">
+                                <img src="images/buusti-kasino.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="row align-items-center table-row">
+                        <div class="col-sm-4 stroke">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="images/score-05.png" />
+                                <div class="user-card">
+                                    <span class="label">User</span>
+                                    <span class="value">User Name</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Count</span>
+                                <span class="value">3</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Deposit Amount</span>
+                                <span class="value">550 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 stroke d-flex justify-content-center">
+                            <div class="inline-block text-left">
+                                <span class="label">Prize</span>
+                                <span class="value">50 €</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <div class="casino-img">
+                                <img src="images/buusti-kasino.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="levels-wrapper score-board-acc mt-5">
+                    <div class="level-row">
+                        <div class="card-head d-flex align-items-center justify-content-between">
+                            <div class="flex level-info">
+                                <img src="images/score-01.png" />
+                                <span class="level-name">User name</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="text-yellow text-uppercase fw-bold me-4">
+                                    <img src="images/buusti-kasino.png"/>
+                                </div>
+                                <div class="arrow-control">
+                                    <img src="images/arrow-down.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-wrapper table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th><h4>User Name</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Casinos <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit count <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit amount <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>2500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Points <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>3075 points</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prize</td>
+                                            <td><h4>100 €</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-row">
+                        <div class="card-head d-flex align-items-center justify-content-between">
+                            <div class="flex level-info">
+                                <img src="images/score-02-1.png" />
+                                <span class="level-name">User name</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="text-yellow text-uppercase fw-bold me-4">
+                                    <img src="images/buusti-kasino.png"/>
+                                </div>
+                                <div class="arrow-control">
+                                    <img src="images/arrow-down.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-wrapper table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th><h4>User Name</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Casinos <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit count <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit amount <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>2500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Points <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>3075 points</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prize</td>
+                                            <td><h4>100 €</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-row">
+                        <div class="card-head d-flex align-items-center justify-content-between">
+                            <div class="flex level-info">
+                                <img src="images/score-03.png" />
+                                <span class="level-name">User name</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="text-yellow text-uppercase fw-bold me-4">
+                                    <img src="images/buusti-kasino.png"/>
+                                </div>
+                                <div class="arrow-control">
+                                    <img src="images/arrow-down.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-wrapper table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th><h4>User Name</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Casinos <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit count <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit amount <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>2500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Points <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>3075 points</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prize</td>
+                                            <td><h4>100 €</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-row">
+                        <div class="card-head d-flex align-items-center justify-content-between">
+                            <div class="flex level-info">
+                                <img src="images/score-04.png" />
+                                <span class="level-name">User name</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="text-yellow text-uppercase fw-bold me-4">
+                                    <img src="images/buusti-kasino.png"/>
+                                </div>
+                                <div class="arrow-control">
+                                    <img src="images/arrow-down.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-wrapper table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th><h4>User Name</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Casinos <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit count <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit amount <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>2500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Points <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>3075 points</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prize</td>
+                                            <td><h4>100 €</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-row">
+                        <div class="card-head d-flex align-items-center justify-content-between">
+                            <div class="flex level-info">
+                                <img src="images/score-05.png" />
+                                <span class="level-name">User name</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="text-yellow text-uppercase fw-bold me-4">
+                                    <img src="images/buusti-kasino.png"/>
+                                </div>
+                                <div class="arrow-control">
+                                    <img src="images/arrow-down.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="table-wrapper table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th><h4>User Name</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Casinos <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit count <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Deposit amount <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>2500 €</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Points <img src="images/info-icon.svg" alt=""></td>
+                                            <td><h4>3075 points</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prize</td>
+                                            <td><h4>100 €</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-wrapper text-center mt-5">
+                    <a class="cta" href="javascript:void(0)">Previous winners</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="level-block space">
+        <div class="container">
+            <div class="intro-block mx-auto text-white text-center">
+                <h2 class="underlined"><span>Level System</span></h2>
+                <div class="bar"></div>
+                <p>We want to be transparent about refunds, which is why we show the most recent users who have received a payment. We also show members whose refund application has been approved...</p>
+            </div>
+            <div class="row justify-content-end mt-5 mb-hidden">
+                <div class="col-md-8">
+                    <div class="levels-wrapper level-system">
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-01.png" />
+                                    <span class="level-name">Level 1</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>20% cashback</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="table-wrapper table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class=""></th>
+                                                <th>Task</th>
+                                                <th class="text-center">Progress</th>
+                                                <th>Reward</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Make10 deposits to this casino</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">3 of 10 deposits</span>
+                                                </td>
+                                                <td class="text-yellow"></td>
+                                                <td>
+                                                    <img src="images/incorrect.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Invite 1 friend to join MrCashback</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">1 of 1 friend invited</span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Deposit 500 € </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">500 of 500 € </span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-02.png" />
+                                    <span class="level-name">Level 2</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="table-wrapper table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class=""></th>
+                                                <th>Task</th>
+                                                <th class="text-center">Progress</th>
+                                                <th>Reward</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Make10 deposits to this casino</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">3 of 10 deposits</span>
+                                                </td>
+                                                <td class="text-yellow"></td>
+                                                <td>
+                                                    <img src="images/incorrect.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Invite 1 friend to join MrCashback</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">1 of 1 friend invited</span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Deposit 500 € </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">500 of 500 € </span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-03.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="table-wrapper table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class=""></th>
+                                                <th>Task</th>
+                                                <th class="text-center">Progress</th>
+                                                <th>Reward</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Make10 deposits to this casino</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">3 of 10 deposits</span>
+                                                </td>
+                                                <td class="text-yellow"></td>
+                                                <td>
+                                                    <img src="images/incorrect.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Invite 1 friend to join MrCashback</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">1 of 1 friend invited</span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Deposit 500 € </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">500 of 500 € </span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-04.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="table-wrapper table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class=""></th>
+                                                <th>Task</th>
+                                                <th class="text-center">Progress</th>
+                                                <th>Reward</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Make10 deposits to this casino</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">3 of 10 deposits</span>
+                                                </td>
+                                                <td class="text-yellow"></td>
+                                                <td>
+                                                    <img src="images/incorrect.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Invite 1 friend to join MrCashback</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">1 of 1 friend invited</span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Deposit 500 € </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">500 of 500 € </span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-05.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="table-wrapper table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class=""></th>
+                                                <th>Task</th>
+                                                <th class="text-center">Progress</th>
+                                                <th>Reward</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Make10 deposits to this casino</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">3 of 10 deposits</span>
+                                                </td>
+                                                <td class="text-yellow"></td>
+                                                <td>
+                                                    <img src="images/incorrect.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Invite 1 friend to join MrCashback</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">1 of 1 friend invited</span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Deposit 500 € </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <span class="progress-text">500 of 500 € </span>
+                                                </td>
+                                                <td class="text-yellow">€ 25</td>
+                                                <td>
+                                                    <img src="images/CheckCircle.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="row justify-content-end mt-5 lg-hidden">
+                <div class="col-md-12">
+                    <div class="levels-wrapper level-system mb">
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-01.png" />
+                                    <span class="level-name">Level 1</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>20% cashback</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="table-wrapper table-responsive">
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>1</h2>
+                                            <img src="images/incorrect.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Make10 deposits to this casino</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">3 of 10 deposits</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>2</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Invite 1 friend to join MrCashback</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">1 of 1 friend invited</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>3</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Deposit 500 € </p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">500 of 500 € </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-02.png" />
+                                    <span class="level-name">Level 2</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="table-wrapper table-responsive">
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>1</h2>
+                                            <img src="images/incorrect.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Make10 deposits to this casino</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">3 of 10 deposits</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>2</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Invite 1 friend to join MrCashback</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">1 of 1 friend invited</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>3</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Deposit 500 € </p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">500 of 500 € </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-03.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="table-wrapper table-responsive">
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>1</h2>
+                                            <img src="images/incorrect.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Make10 deposits to this casino</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">3 of 10 deposits</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>2</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Invite 1 friend to join MrCashback</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">1 of 1 friend invited</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>3</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Deposit 500 € </p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">500 of 500 € </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-04.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="table-wrapper table-responsive">
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>1</h2>
+                                            <img src="images/incorrect.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Make10 deposits to this casino</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">3 of 10 deposits</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>2</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Invite 1 friend to join MrCashback</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">1 of 1 friend invited</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>3</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Deposit 500 € </p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">500 of 500 € </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-row">
+                            <div class="card-head d-flex align-items-center justify-content-between">
+                                <div class="flex level-info">
+                                    <img src="images/score-05.png" />
+                                    <span class="level-name">Level 3</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-yellow text-uppercase fw-bold me-4">
+                                        <span>22.5% cashback + 50 euro bonus</span>
+                                    </div>
+                                    <div class="arrow-control">
+                                        <img src="images/arrow-down.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="table-wrapper table-responsive">
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>1</h2>
+                                            <img src="images/incorrect.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Make10 deposits to this casino</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">3 of 10 deposits</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>2</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Invite 1 friend to join MrCashback</p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">1 of 1 friend invited</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="d-flex align-items-center justify-content-between gap-3">
+                                            <h2>3</h2>
+                                            <img src="images/correct.png" alt="">
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <p class="tastname">Task</p>
+                                            <p>Deposit 500 € </p>
+                                        </div>
+                                        <div class="progress-block">
+                                            <p class="text-left">Progress</p>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <span class="progress-text">500 of 500 € </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <img src="images/chair.png" class="level-block-main-image"> 
+        </div>
+    </section>
+
+
+    <section class="rewards-block space fill">
+        <div class="container">
+            <div class="intro-block mx-auto text-white text-center">
+                <h2 class="underlined">
+                    <span>The latest Riskfree users <br/> who got their  </span>
+                </h2>
+                <div class="bar"></div>
+                <p>
+                    We want to be transparent about refunds, which is why we show the most recent users who have received a payment. We also show members whose refund application has been approved...
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="wrapper bg-white _card">
+                        <p class="text-center"><b>Recent users,</b> whose refund <br /> application was accepted:</p>
+                        <div class="rewards-table table-responsive">
+                            <table>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/buusti.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/barz.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/reload.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/barz.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/reload.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/buusti.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/barz.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="amount fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- right  -->
+
+                <div class="col-12 col-lg-6">
+                    <div class="wrapper green _card">
+                        <p class="text-center text-white"><b>Recent users,</b> whose refund <br /> application was accepted:</p>
+                        <div class="rewards-table text-white table-responsive">
+                            <table>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/yellow-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/green-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/yellow-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/green-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/yellow-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/green-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="d-flex align-items-center details">
+                                            <img src="images/yellow-avatar.png" />
+                                            <span class="fw-bold">Carter Torff</span>
+                                        </div>
+                                    </td>
+                                    <td width="70">
+                                        <span class="text-yellow fw-bold">20 €</span>
+                                    </td>
+                                    <td width="90">2023.09.10</td>
+                                    <td width="50" align="center">
+                                        <img src="images/correct.png"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 align-self-center">
+                <div class="footer-column">
+                    <img src="images/footer-logo.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3">
+                <div class="footer-column">
+                    <h4 class="ft-heading">Information</h4>
+                    <ul class="m-0 p-0">
+                        <li><a href="javascript:void(0)">ABOUT US</a></li>
+                        <li><a href="javascript:void(0)">HOW IT WORKS</a></li>
+                        <li><a href="javascript:void(0)">ACHIEVEMENTS AND BONUS TERMS</a></li>
+                        <li><a href="javascript:void(0)">KYC - KNOW YOUR CUSTOMER</a></li>
+                        <li><a href="javascript:void(0)">VERIFICATION AND DOCUMENTS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 justify-self-center">
+                <div class="footer-column">
+                    <h4 class="ft-heading">HELP & SUPPORT</h4>
+                    <ul class="m-0 p-0">
+                        <li><a href="javascript:void(0)">TERMS OF SERVICE</a></li>
+                        <li><a href="javascript:void(0)">COOKIES</a></li>
+                        <li><a href="javascript:void(0)">PRIVACY POLICY</a></li>
+                        <li><a href="javascript:void(0)">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 justify-self-end">
+                <div class="footer-column">
+                    <h4 class="ft-heading">NOPEAT NOSTOT TARJOAA</h4>
+                    <ul class="m-0 p-0">
+                        <li><a href="javascript:void(0)" class="d-block text-right"><img src="images/zimber.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-content">
+            <ul class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0">
+                <li>2022 © <a href="javascript:void(0)">Riskivapaa</a></li>
+                <li class="d-flex gap-4"><img src="images/18plus.png" alt=""><img src="images/gambling-therapy.png" alt=""></li>
+                <li><img src="images/gambleaware.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

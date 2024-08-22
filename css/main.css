@@ -1,0 +1,7 @@
+/*-----------main-css-----------*/
+
+@import 'bootstrap.min.css';
+@import 'common.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'home.css';

@@ -1,0 +1,342 @@
+/*-----------------home-page-css------------*/
+
+.hero-section{
+    position: relative;
+    background: var(--primary) url('../images/bg-image.png') 0 0 no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: calc(100vh - 8.4rem);
+    min-height: 62rem;
+    padding: 2rem 0;
+}
+.hero-section:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/cubs.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 18rem;
+    height: 30rem;
+}
+.hero-section:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 24rem;
+    background: linear-gradient(180deg, rgba(5, 70, 52, 0) 0%, #054634 100%);
+}
+.hero-section .hero-image{
+    position: absolute;
+    bottom: 0;
+    right: -2rem;
+    max-height: 62rem;
+    object-position: bottom;
+}
+.hero-section p{
+    font-weight: 500;
+}
+.hero-section .col{
+    position: relative;
+    z-index: 2;
+}
+@keyframes MOVE-BG1 {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0)
+	}
+	to {
+		-webkit-transform: translateX(326px);
+		transform: translateX(326px)
+	}
+}
+.contest-block .bar{
+    width: 326px;
+    height: 4px;
+}
+.contest-block .bar:before{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    top: -4px;
+    overflow: hidden;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-name: MOVE-BG1;
+    animation-name: MOVE-BG1;
+}
+.contest-block .stroke{
+    border-right: 1px solid rgba(109, 109, 109, 0.59);
+}
+.contest-block .intro-block{
+    margin-bottom: 8rem;
+}
+
+.rewards-block{
+    background: var(--primary);
+}
+.rewards-block .intro-block p,
+.contest-block .intro-block p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.score-board{
+    position: relative;
+    padding: 1.6rem 1.6rem 1.6rem 10rem;
+    max-width: 25.7rem;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.score-board img{
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    width: auto;
+    max-height: 7.1rem;
+}
+.score-board span{
+    font-size: 8px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.levels-wrapper.score-board-acc .level-row{
+    background: linear-gradient(180deg, rgba(255, 196, 0, 0) 0%, rgba(255, 196, 0, 0.1) 100%), #002413;
+    border-radius: 8px;
+    border-top: 1px solid var(--yellow);
+    border-radius: 0.6rem;
+    padding: 1.6rem 1.2rem;
+}
+.levels-wrapper.score-board-acc .level-row .card-head{
+    background: transparent;
+    padding: 0;
+}
+.levels-wrapper.score-board-acc .level-row .card-head img{
+    width: auto;
+    margin-right: 1rem;
+    max-height: 4rem;
+}
+.levels-wrapper.score-board-acc .level-row.active .level-info img{
+    transform: none;
+}
+.levels-wrapper.score-board-acc .level-row.active .level-name {
+    color: var(--white);
+}
+.levels-wrapper.score-board-acc .level-row .card-content{
+    padding-left: 0;
+    padding-top: 1.6rem;
+}
+.levels-wrapper.score-board-acc .level-row th,
+.levels-wrapper.score-board-acc .level-row td{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+    padding-right: 0;
+    vertical-align: middle;
+}
+.levels-wrapper.score-board-acc .level-row th:last-child,
+.levels-wrapper.score-board-acc .level-row td:last-child{
+    text-align: right;
+}
+.levels-wrapper.score-board-acc .level-row tbody tr:not(:last-child){
+    border-bottom: 1px solid rgba(109, 109, 109, 0.59);
+}
+.levels-wrapper.score-board-acc .level-row h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+    margin: 0;
+}
+.levels-wrapper.score-board-acc .level-row .arrow-control {
+    margin-left: 0;
+}
+
+.levels-wrapper.level-system .level-row .card-content{
+    padding-top: 2rem;
+}
+.levels-wrapper.level-system .level-row table{
+    table-layout: auto;
+    border-spacing: 20px;
+    border: 1px solid transparent;
+    border-collapse: separate;
+}
+.levels-wrapper.level-system .level-row th,
+.levels-wrapper.level-system .level-row td{
+    border: 1px solid transparent;
+    border-right-color: rgba(109, 109, 109, 0.59);
+    padding-left: 0;
+    min-width: 25px;
+    text-align: left;
+}
+.levels-wrapper.level-system .level-row th:first-child,
+.levels-wrapper.level-system .level-row th:last-child,
+.levels-wrapper.level-system .level-row td:last-child{
+    border-right-color: transparent;
+}
+.levels-wrapper.level-system .level-row .progress-text{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+}
+
+.level-block .level-block-main-image{
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    width: auto;
+    max-height: 52rem;
+    z-index: -1;
+}
+
+.levels-wrapper.level-system.mb .level-row .card-head{
+    padding: 0.4rem 1.6rem;
+}
+.levels-wrapper.level-system.mb .level-row .card-content{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 2rem;
+}
+.levels-wrapper.level-system.mb .level-row .level-info img{
+    margin-right: 1.2rem;
+}
+.levels-wrapper.level-system.mb .level-row .arrow-control {
+    margin-left: 0rem;
+}
+.levels-wrapper.level-system.mb .level-row .card-head span{
+    display: inline-block;
+    font-size: 1.4rem;
+    text-align: right;
+    max-width: 13.6rem;
+}
+.levels-wrapper.level-system.mb .level-row.active .level-info img {
+    transform: scale(1.6);
+}
+.levels-wrapper.level-system.mb .card-content .content-row:not(:last-child){
+    margin-bottom: 2rem;
+}
+.levels-wrapper.level-system.mb .card-content .tastname{
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid rgba(109, 109, 109, 0.59);
+}
+.levels-wrapper.level-system.mb .card-content h2{
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 1600px){
+    .hero-section .hero-image{
+        max-height: 82rem;
+    }
+    .hero-section:before{
+        bottom: 10rem;
+    }
+}
+@media (max-width: 1366px){
+    .hero-section .hero-image{
+        max-height: 55rem;
+    }
+    .hero-section:before{
+        width: 10rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 1199px){
+    .hero-section .hero-image{
+        max-height: 52rem;
+    }
+    .levels-wrapper.level-system .level-row .card-head{
+        padding: 0.2rem 3rem;
+    }
+    .level-block .level-block-main-image{
+        max-height: 36rem;
+    }
+    .levels-wrapper.level-system .level-row .level-info img{
+        margin-right: 1rem;
+    }
+    .levels-wrapper.level-system .level-row.active .level-info img {
+        transform: scale(1.6);
+    }
+    .levels-wrapper.level-system .level-row .card-content {
+        padding-left: 0rem;
+    }
+    .levels-wrapper.level-system .level-row .arrow-control {
+        margin-left: 0;
+    }
+}
+@media (max-width: 991px){
+    .hero-section{
+        align-items: flex-start !important;
+    }
+}
+@media (max-width: 767px){
+    .hero-section{
+        align-items: flex-start !important;
+        height: 100%;
+        min-height: 52rem;
+    }
+    .hero-section:before{
+        width: 8rem;
+        height: 18rem;
+    }
+    @keyframes MOVE-BG1 {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0)
+        }
+        to {
+            -webkit-transform: translateX(226px);
+            transform: translateX(226px)
+        }
+    }
+    .contest-block .bar{
+        width: 226px;
+        height: 4px;
+    }
+    .contest-block .bar:before{
+        -webkit-animation-name: MOVE-BG1;
+        animation-name: MOVE-BG1;
+    }
+    .contest-block h2{
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    .score-board img{
+        left: 0.5rem;
+        top: -0.2rem;
+        max-height: 4.5rem;
+    }
+    .score-board{
+        padding: 1.6rem 1rem 1.6rem 5rem;
+    }
+    .level-block{
+        text-align: center;
+    }
+    .level-block .level-block-main-image{
+        position: relative;
+        left: auto;
+        bottom: auto;
+        max-height: 30rem;
+        margin: auto;
+    }
+    .level-block .row.mb-hidden{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .levels-wrapper.score-board-acc{
+        display: none;
+    }
+    .level-block .row.lg-hidden{
+        display: none;
+    }
+}
